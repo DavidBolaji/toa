@@ -77,6 +77,8 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: var(--primary-color);
@@ -116,6 +118,8 @@ ul {
     position: absolute;
     top: 50px;
     padding-inline: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     z-index: 2;
    
 
@@ -123,11 +127,15 @@ ul {
         margin-bottom: 25px;
         max-width: 700px;
         margin-inline: auto ;
+        margin-left: auto;
+        margin-right: auto;
         h2 {
             color: var(--white);
             font-size: 2.92rem;
             
             margin-inline: auto ;
+            margin-left: auto;
+            margin-right: auto;
          
         }
 
@@ -205,10 +213,14 @@ ul {
 #benefits {
     background-color: var(--white);
     margin-inline: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     transform: translateY(-70px);
 
     .benefits-holder {
         padding-inline: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
 
 
         .title-holder {
@@ -266,6 +278,8 @@ ul {
     
     .inspired-holder {
         margin-inline: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
 
         .top {
             display: flex;
@@ -345,6 +359,8 @@ ul {
 #focus {
     margin-inline: 20px;
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     .focus-holder {
 
@@ -385,6 +401,8 @@ ul {
 
 #featured {
     margin-inline: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 50px;
 
     .featured-holder {
@@ -430,6 +448,8 @@ ul {
     
     .today-holder {
         margin-inline: 20px;
+        margin-left: 20px;
+        margin-right:20px;
         margin-top: 40px;
 
         .top {
@@ -488,6 +508,8 @@ ul {
                     .bottom-info {
                         position: absolute;
                         padding-inline: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
                         bottom: 0;
                         background-color: #070707a1;
                         color: #ffffff;
@@ -702,8 +724,12 @@ footer {
     }
     #benefits {
         margin-inline: 75px;
+        margin-left: 75px;
+        margin-right: 75px;
         .benefits-holder {
             padding-inline: 75px;
+            padding-left: 75px;
+            padding-right: 75px;
             .card-holder {
                 display: flex;
     
@@ -735,11 +761,15 @@ footer {
         .inspired-holder {
             .top {
                 padding-inline: 150px;
+                padding-left: 150px;
+                padding-right: 150px;
             }
             .pic-holder {
                 display: flex;
                 flex-wrap: wrap-reverse;
                 padding-inline: 150px;
+                padding-left: 150px;
+                padding-right: 150px;
                 
      
                * {
@@ -769,6 +799,8 @@ footer {
         .focus-holder {
             display: flex;
             padding-inline: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
             justify-content: center;
             align-items: center;
             max-height: auto;
@@ -804,6 +836,8 @@ footer {
             display: flex;
             flex-direction: row-reverse;
             padding-inline: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
             justify-content: center;
             align-items: center;
             max-height: auto;
@@ -836,11 +870,15 @@ footer {
         .today-holder {
             .top {
                 padding-inline: 150px;
+                padding-left: 150px;
+                padding-right: 150px;
             }
             .today-pic-holder {
                 display: flex;
                 flex-wrap: wrap;
                 padding-inline: 150px;
+                padding-left: 150px;
+                padding-right: 150px;
     
                 * {
                     flex: 1 1 30%
@@ -885,6 +923,8 @@ footer {
         }
         .site-details {
             padding-inline: 150px;
+            padding-left: 150px;
+            padding-right: 150px;
             flex: 1;
            transform: translateY(-20px);
             // background-color: red;

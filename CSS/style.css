@@ -79,6 +79,8 @@ ul li a {
       -ms-flex-align: center;
           align-items: center;
   padding-inline: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: var(--primary-color);
@@ -119,6 +121,8 @@ ul li a {
   position: absolute;
   top: 50px;
   padding-inline: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   z-index: 2;
 }
 
@@ -126,12 +130,16 @@ ul li a {
   margin-bottom: 25px;
   max-width: 700px;
   margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text .left h2 {
   color: var(--white);
   font-size: 2.92rem;
   margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text .left p {
@@ -211,12 +219,16 @@ ul li a {
 #benefits {
   background-color: var(--white);
   margin-inline: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   -webkit-transform: translateY(-70px);
           transform: translateY(-70px);
 }
 
 #benefits .benefits-holder {
   padding-inline: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #benefits .benefits-holder .title-holder {
@@ -273,6 +285,8 @@ ul li a {
 
 #inspired .inspired-holder {
   margin-inline: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #inspired .inspired-holder .top {
@@ -351,6 +365,8 @@ ul li a {
 #focus {
   margin-inline: 20px;
   margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #focus .focus-holder .focus-img {
@@ -393,6 +409,8 @@ ul li a {
 
 #featured {
   margin-inline: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 50px;
 }
 
@@ -435,6 +453,8 @@ ul li a {
 
 #today .today-holder {
   margin-inline: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 40px;
 }
 
@@ -499,6 +519,8 @@ ul li a {
 #today .today-holder .today-pic-holder .carousel .pic .bottom-info {
   position: absolute;
   padding-inline: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   bottom: 0;
   background-color: #070707a1;
   color: #ffffff;
@@ -728,9 +750,13 @@ footer .site-details .site-url ul li a {
   }
   #benefits {
     margin-inline: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
   }
   #benefits .benefits-holder {
     padding-inline: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
   #benefits .benefits-holder .card-holder {
     display: -webkit-box;
@@ -754,6 +780,8 @@ footer .site-details .site-url ul li a {
   }
   #inspired .inspired-holder .top {
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
   #inspired .inspired-holder .pic-holder {
     display: -webkit-box;
@@ -762,6 +790,8 @@ footer .site-details .site-url ul li a {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
   #inspired .inspired-holder .pic-holder * {
     -webkit-box-flex: 1;
@@ -785,6 +815,8 @@ footer .site-details .site-url ul li a {
     display: -ms-flexbox;
     display: flex;
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -828,6 +860,8 @@ footer .site-details .site-url ul li a {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -864,6 +898,8 @@ footer .site-details .site-url ul li a {
   }
   #today .today-holder .top {
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
   #today .today-holder .today-pic-holder {
     display: -webkit-box;
@@ -872,6 +908,8 @@ footer .site-details .site-url ul li a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
   #today .today-holder .today-pic-holder * {
     -webkit-box-flex: 1;
@@ -918,6 +956,8 @@ footer .site-details .site-url ul li a {
   }
   footer .site-details {
     padding-inline: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
